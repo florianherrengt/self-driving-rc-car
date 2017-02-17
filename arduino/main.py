@@ -38,6 +38,10 @@ def get_status():
 
 @app.route("/stop")
 def stop():
+    status['forward'] = False
+    status['backward'] = False
+    status['left'] = False
+    status['right'] = False
     arduino.write(b'left_off\n')
     arduino.write(b'right_off\n')
     arduino.write(b'forward_off\n')

@@ -10,6 +10,7 @@
   "author": "Florian Herrengt <florian.herrengt@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^1.6.3",
+    "serialport": "^4.0.7"
   }
 }
